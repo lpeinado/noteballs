@@ -2,9 +2,11 @@
 </script>
 
 <template>
-  <router-view>
+  <router-link to="/">Home</router-link>
+  <router-link to="/steps">Steps page</router-link>
+  <RouterView>
 
-  </router-view>
+  </RouterView>
 </template>
 
 
