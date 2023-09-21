@@ -1,16 +1,22 @@
 <script setup>
+  import NavBar from '@/components/layout/NavBar.vue'
 </script>
 
 <template>
-  <router-link to="/" class="button">Home</router-link>
-  <router-link to="/steps" class="button">Steps page</router-link>
+<div class="app-main">
+  <NavBar/>
   <RouterView>
 
   </RouterView>
+</div>
+
 </template>
 
 <style>
 @import 'bulma/css/bulma.min.css'
+.app-main{
+  display:flex;
+}
 </style>
 
 
